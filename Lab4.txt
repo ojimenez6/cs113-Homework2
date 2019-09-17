@@ -1,0 +1,29 @@
+Self-Check 
+1.
+
+	a. 
+        	displayed n * n times. 
+	
+   	 	O(N^2)
+
+        b. 
+		displayed n * (n + 2) times. 
+    		n * (n + 2) = n^2 + 2n
+    
+   	 	O(n^2). 
+
+	c.      displayed (1/2) * n.length
+
+		O(n^2)
+
+	d.      displayed n * (n - 1)
+                n * (n - 1) = n^2 - n
+
+		O(n^2)
+
+
+PROGRAMMING
+
+1. Even though Y1 starts off with a higher output value, Y2 quickly outgrows it once n = 30. It makes 
+   sense because Y1 is O(n) and Y2 is O(n^2). 
+			
